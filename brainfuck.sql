@@ -20,7 +20,7 @@ WITH RECURSIVE run_state
       0,
       input,
       ''::text,
-      repeat('\000'::text, 10)::bytea,
+      repeat('\000'::text, 30000)::bytea,
       0,
       program,
       1,
